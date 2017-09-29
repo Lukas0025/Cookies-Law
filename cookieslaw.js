@@ -45,7 +45,7 @@ function getCookie(name){
 
 //Cookies Law
 //Code part
-var code = "<div id='cookieslow' style='text-align: center;background-color: " + color + ";font-size: 15px;position: fixed;left: 0;right: 0; bottom: 0;color: " + textcolor + ";padding: 10px;line-height: 19px;'>\r\n"
+var code = "<div id='cookieslow' style='z-index:1000;text-align: center;background-color: " + color + ";font-size: 15px;position: fixed;left: 0;right: 0; bottom: 0;color: " + textcolor + ";padding: 10px;line-height: 19px;'>\r\n"
 		 + "  " + text + "\r\n"
 		 + "  <button onclick='okclick()' style='color: " + buttontextcolor + ";background-color: " + buttoncolor + ";padding: 0 12px;line-height: 1;min-height: 20px;text-align: center;vertical-align: top;cursor: pointer;text-transform: uppercase;border-radius: 3px;border: none;outline: none;font-size: 10px;margin-left: 10px;'>" + buttontext + "</button>\r\n"
 		 + "</div>\r\n";
